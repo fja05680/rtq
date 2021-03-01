@@ -4,13 +4,13 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='brownbear',
-    version='0.18.0',
-    description='A financial tool that can analyze and maximize investment portfolios on a risk adjusted basis.',
+    name='rtq',
+    version='0.1.0',
+    description='Real Time Stock and ETF Quotes from Yahoo finance using Python.',
     author='Farrell Aultman',
     author_email='fja0568@gmail.com',
-    url='https://github.com/fja05680/brownbear',
-    packages=['brownbear'],
+    url='https://github.com/fja05680/rtq',
+    packages=['rtq'],
     include_package_data=True,
     license='MIT',
     install_requires=requirements,
