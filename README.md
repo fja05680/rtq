@@ -1,7 +1,7 @@
 rtq
 ======
 
-Retrieve real time quotes fro yahoo finance
+Retrieve real time quotes from yahoo finance
 
 Install
 
